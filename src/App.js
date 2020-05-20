@@ -1,14 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header';
+import FormLogin from './components/FormLogin';
 
 function App() {
   return (
-    <ul>
-      <li>Go to market</li>
-      <li>Buy food</li>
-      <li>Make dinner</li>
-    </ul>
+    <div className="App">
+      <Header />
+      <FormLogin />
+    </div>
   );
 }
 
