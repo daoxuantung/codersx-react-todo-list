@@ -12,13 +12,9 @@ function Header() {
         </div>
         <div className="Header-link" >
             <img src={logo} alt="logo"></img>
-            <span className="Header-link-content">
-                coder
-                <span>X</span>
-            </span>
         </div>
         <div className="Header-signup">
-            <a href="/" className="Header-signup-link">Sign up</a>
+            <a href="/" className="Header-signup-link">Signup</a>
         </div> 
     </header>
   );
